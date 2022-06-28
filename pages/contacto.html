@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>KIDS</title>
+    <title>CONTACTO</title>
 </head>
 <body class="container-fluid">
     <nav class="navbar navbar-expand-lg" style="background-color: rgb(255, 255, 255)">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img  class="w-25" src="../img/lubie hand made.png" alt=""></a>
+          <a class="navbar-brand" href="../index.html"><img  class="w-25" src="../assets/img/lubie hand made.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                <a class="nav-link" href="../index.html">INICIO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./productos.html">PRODUCTOS</a>
@@ -28,10 +28,10 @@
                 <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./kids.html">KIDS</a>
+                <a class="nav-link" href="./kids.html">KIDS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                <a class="nav-link active" href="./contacto.html">CONTACTO</a>
               </li>
             </ul>
           </div>
@@ -41,28 +41,33 @@
       <div id="slide" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../img/photo1.webp" class="d-block w-100" alt="...">
+            <img src="../assets/img/photo1.webp" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="../img/photo2.jpg" class="d-block w-100" alt="...">
+            <img src="../assets/img/photo2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="../img/photo4.webp" class="d-block w-100" alt="...">
+            <img src="../assets/img/photo4.webp" class="d-block w-100" alt="...">
           </div>
         </div>
       </div>
     </header>
-    <main class="row p-5">
-      <figure class="col-12 col-sm-4 figure">
-        <img src="../img/nosotros.webp" class="figure-img img-fluid mx-auto d-block rounded" alt="...">
-      </figure>
-      <figure class="col-12 col-sm-4 figure">
-        <img src="../img/nosotros.webp" class="figure-img img-fluid mx-auto d-block rounded" alt="...">
-      </figure>
-      <p class="col-12 col-sm-4 fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum et sapiente culpa blanditiis doloremque ullam, voluptates numquam, illum nostrum molestias, laboriosam ratione. Ut, accusamus ipsum. Possimus eos tempora qui nihil atque. Quam, possimus porro delectus error eius quasi accusamus neque ad ex. Ad reprehenderit magnam, illo ducimus consequuntur sapiente nam.</p>
+    <main class="row m-3">
+      <div class="col-12 col-sm-6 mb-3">
+        <label for="name" class="form-label">Nombre y Apellido</label>
+        <input type="name" class="form-control" id="name" placeholder="Nombre y apellido">
+      </div>
+      <div class="col-12 col-sm-6 mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="col-12 col-sm-12 mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
     </main>
     <footer class="footer">
-      <img  class="imgFooter" src="../img/lubie hand made.png" alt="">
+      <img  class="imgFooter" src="../assets/img/lubie hand made.png" alt="">
    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
