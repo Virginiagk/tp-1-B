@@ -1,32 +1,9 @@
 .footer {
-    background-color: rgb(255, 217, 217);
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    
+  background-color: rgb(255, 217, 217);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
 }
- .footer img{
-    width: 80px;
- }
-
- 
- input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-
-  }
-  
-  input[type=submit] {
-    background-color: #cbffec;
-    color: white;
-    border-radius: 4px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
+.footer img {
+  width: 80px;
+}/*# sourceMappingURL=style.css.map */
