@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>LUBIÉ</title>
+    <title>LUBIÉ-Accesorios handmade</title>
 </head>
 <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg" style="background-color: rgb(255, 255, 255)">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg wow animate__animated animate__fadeInDown animated" style="background-color: rgb(255, 255, 255)">
+        <div class="container-fluid ">
           <a class="navbar-brand" href="../index.html"><img  class="w-25" src="../assets/img/lubie hand made.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +31,7 @@
                 <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./kids.html">KIDS</a>
+                <a class="nav-link" href="./galeria.html">GALERÍA</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contacto.html">CONTACTO</a>
@@ -41,52 +42,29 @@
       </nav>
     <header>
       <figure class="figure">
-        <img src="../assets/img/header kids.jpg" class="figure-img img-fluid" alt="...">
+        <img src="../assets/img/nosotrosSlide.jpg" class="figure-img img-fluid" alt="...">
       </figure>
     </header>
-    <main class="row justify-content-around">
-      <p class="col-12 p-5">Todos nuestros productos MINI LUBIÉ, son fabricados con materiales hipoalergénico y hechos con mucho amor para los más peques</p>
-      <button type="button" class="btn btn-outline-primary col-2">CONSULTAR</button>
-      <div class="row m-2 justify-content-around">
-        <div class=" col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
+    <main>
+        <div class="row flex-wrap justify-content-around">
+          <div class="col-12 col-sm-6 text-center m-5">
+            <p class="fs-3">~Hola! ~Somos LUBIÉ</p>
+            <p class="fs-6">☆Nos especializamos en hacer accesorios para el pelo 100% artesanales y con mucho amor ❤ No dudes en consultarnos y en pedirnos alguna variación del modelo según tu estilo. Queremos que cada accesorio sea el ideal para vos!!</p>
+            <img src="../assets/img/flor.png" class="img-fluid wow animate__animated animate__rotateIn animated" alt="">
+          </div>
+          <figure class="col-12 col-sm-4 figure">
+            <img src="../assets/img/yo.jpg" class="img-thumbnail img-fluid mx-auto d-block" alt="...">
+          </figure>
         </div>
-        <div class="col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
-        </div>
-        <div class="col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
-        </div>
-        <div class="col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
-        </div>
-        <div class="col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
-        </div>
-        <div class="col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
-        </div>
-        <div class="col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
-        </div>
-        <div class="col-12 col-sm-4 col-xl-3">
-          <img src="../assets/img/producto.jpeg" alt="" class="img-fluid rounded">
-          <h4>Aros</h4>
-        </div>
-       
-      </div>
     </main>
     <footer class="footer">
       <a href="../index.html"><img  class="imgFooter" src="../assets/img/lubie hand made.png" alt=""></a>
    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+		</script>
 </body>
 </html>
